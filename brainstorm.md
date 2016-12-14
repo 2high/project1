@@ -45,3 +45,24 @@ http://www.w3schools.com/graphics/game_intro.asp
 ######positions
 ######Collision Detection
 ######Touch events
+
+
+## What I'm gonna use
+
+- CSS Reset
+<a hrfe="http://cssreset.com/scripts/eric-meyer-reset-css">LINK</a>
+
+- Vanilla Javascript
+- Css
+- HTML
+
+## My fonts
+- http://keycode.info/
+
+## WHAT I NEED TO DO THE GAME
+- The addEventListener()
+- keypress
+- how i can move the paddle from left to right
+- how to move the ball up then when hit a row come back
+
+
