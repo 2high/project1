@@ -20,6 +20,14 @@ function myBall(){
 
 // Key
 
+let keys = {LEFT: 37, RIGHT: 39};
+let limitsScreen = {
+    left: 0;
+    rigth: 400;
+};
+
+document.getElementById('paddle').addEventListener('key')
+
 
 
 
