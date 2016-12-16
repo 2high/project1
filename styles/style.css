@@ -15,22 +15,28 @@
 }
 
 #paddle{
-  width: 100px;
-  height: 15px;
-  background-color: #000;
-  bottom: 10px;
-  left:45%;
+  width: 140px;
+  height: 120px;
+  overflow: hidden;
+  left:46%;
   position: absolute;
+  background-image: url('../assets/ufo.png');
+  background-repeat: no-repeat;
+  background-size: 80% 80%;
 }
 
 #ball{
-  height: 30px;
-  width: 30px;
-  border-radius: 50%;
+width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #f00;
+
   position: absolute;
-  background: #000;
-  bottom: 25px;
-  left: 49%;
+  background: transparent;
+  top: 60px;
+  left: 50%;
+
 }
 
 
