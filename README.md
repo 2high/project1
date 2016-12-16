@@ -15,9 +15,9 @@
 ## MVP
 
 - Space Ship goes left and right with keypress
-- The missile hits an object and count the score
+- The missile hits an object 
 - Score
-- Game counter
+- Timer
 
 ## what i need to do first
 - Move the space Ship
@@ -34,3 +34,15 @@
 - CSS
 - HTML
 
+## what i want to do after MVP
+
+- Set an animated background
+- Makes the laser more realistic 
+- Effects on the space ship
+- Sound for the game
+
+
+## FRIDAY GOALS
+- Make the space ship move left and right
+- hit the key and fires the laser
+- the targets
