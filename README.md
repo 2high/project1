@@ -10,6 +10,7 @@
 - Start button
 - END GAME
 -- when the player doesn't finish to destroy the objective.
+- Click to fire and destroy the target.
 
 ## MVP
 
@@ -18,5 +19,18 @@
 - Score
 - Game counter
 
+## what i need to do first
+- Move the space Ship
+- keypress to fire the laser
+- the targets
+- Score
+- The timer
+- start button
+- end game
 
+## How I'm gonna do that
+
+- Javascript
+- CSS
+- HTML
 
