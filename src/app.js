@@ -47,7 +47,6 @@ function show() {
   gameArea.drawImage(alien.et, alien.x, alien.y, 150, 150);
 //Cow
 //in the screen
-// Creates new array of missils & based on location delets them
   missils = missils.map((laser) => {
     gameArea.drawImage(laser.missil, laser.x, laser.y, 60, 50);
     //vell from Class missiles
@@ -74,6 +73,9 @@ function show() {
     target.limitz();
     gameArea.drawImage(target.cow, target.x, target.y, 70, 70);
   });
+  
  window.requestAnimationFrame(show);
+
 }
+
 show();
