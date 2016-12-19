@@ -18,6 +18,3 @@ You are responsible to control the space ship and destroy all the cows.
 Timer and Score working.
 
 ## Game Screenshots
-
-
-
