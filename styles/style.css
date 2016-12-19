@@ -2,47 +2,56 @@
 /***************************************************/
 /*Container*/
 /***************************************************/
+body {
+  background: url('../assets/farm.png');
+  background-size: cover;
+  position: fixed;
+}
+#canvas {
+  position: fixed;
+  top: 5rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
 
-#container{
-  padding: 0;
-  margin: 0 auto;
-  display: block;
-  width: 60%;
-  height: 400px;
-  border: solid 1px #000;
+.score{
   position: relative;
-  margin-top: 40px;
+  margin: 50px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 1.6em;
+  float: left;
+  font-family: 'Orbitron', sans-serif;
+  width: 150px;
 }
-
-#paddle{
-  width: 140px;
-  height: 120px;
-  overflow: hidden;
-  left:46%;
-  position: absolute;
-  background-image: url('../assets/ufo.png');
-  background-repeat: no-repeat;
-  background-size: 80% 80%;
+.timer{
+  position: relative;
+  margin: 0 50px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 1.6em;
+  line-height: 1.4;
+  float: left;
+  width: 300px;
+  clear: both;
+  font-family: 'Orbitron', sans-serif;
 }
-
-#ball{
-width: 0;
-  height: 0;
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  border-top: 20px solid #f00;
-
-  position: absolute;
-  background: transparent;
-  top: 60px;
-  left: 50%;
+.rules{
+  position: relative;
+  margin: 50px;
+  font-weight: 400;
+  font-size: 1.2em;
+  float: left;
+  width: 360px;
+  clear: both;
+  font-family: 'Orbitron', sans-serif;
+}
+.strong{
+  font-weight: 700;
+  font-size: 1.1em;
 
 }
-
-
-
-
-
 /***************************************************/
 /*CSS RESET*/
 /***************************************************/

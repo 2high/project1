@@ -3,11 +3,29 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Breakout</title>
+  <title>Alien Attack</title>
   <link rel="stylesheet" href="styles/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Orbitron:400,700" rel="stylesheet">
 </head>
 <body >
-<script src="src/main.js"></script>
+
+
+<canvas id="canvas" width="1000" height="700"></canvas>
+
+<div class="score">SCORE: 0</div>
+<div class="timer">TIME </br>0:30</div>
+<div class="rules">Use the keyboard <span class="strong">LEFT</span> and <span class="strong">RIGHT</span> ARROW to move the UFO.</br>To fire use <span class="strong">Shift</span></div>
+
+<!-- onclick="define()" -->
+<script src="src/laser.js"></script>
+<script src="src/alien.js"></script>
+<script src="src/cow.js"></script>
 <script src="src/app.js"></script>
+
+
+
+<script src="src/control.js"></script>
+
+<script></script>
 </body>
 </html>
